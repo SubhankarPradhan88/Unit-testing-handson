@@ -5,5 +5,4 @@ import '../src/LoanBasicDetails/BasicDetails.js';
 describe('Basic details', () => {
   // Write test cases inside this block
   // refer basic-details.js files
-  it()
 });
