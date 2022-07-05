@@ -17,14 +17,6 @@ describe('Basic details Test Suit', () => {
     server.restore();
   });
  
-  // setup(()=>{
-  //   server = sinon.fakeServer.create();
-  // })
-
-  // teardown(()=>{
-  //   server.restore();
-  // })
-
   // Checks for component loads
   it('Component Loads', async () => {
     const basicDetailObj = await fixture(html`<basic-details></basic-details>`);
